@@ -74,7 +74,7 @@ const Navbar = () => {
                 </ul>
 
 
-                <div className='cursor-pointer md:hidden text-gray-400'
+                <div className='cursor-pointer md:hidden ml-3 text-gray-400'
                     onClick={() => setNavicon(!navicon)}
                 >
                     {

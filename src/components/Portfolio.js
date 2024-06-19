@@ -119,7 +119,7 @@ const Portfolio = () => {
                                 </div>
 
                                 {/* project No */}
-                                <p className='lg:text-9xl text-5xl text-gray-400 font-sans opacity-0 group-hover:opacity-50 transition-opacity duration-700'>0{index + 1}</p>
+                                <p className='lg:text-9xl text-2xl text-gray-400 font-sans opacity-0 group-hover:opacity-50 transition-opacity duration-700'>0{index + 1}</p>
 
 
                             </div>

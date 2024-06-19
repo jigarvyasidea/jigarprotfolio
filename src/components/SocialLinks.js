@@ -41,7 +41,7 @@ const SocialLinks = () => {
 
 
     return (
-        <div className='  fixed top-[30%] hidden lg:block '>
+        <div className='  fixed lg:top-[30%] top-[40%] z-30   '>
             <ul>
 
                 {links.map(({ child, href, download }, index) => (
