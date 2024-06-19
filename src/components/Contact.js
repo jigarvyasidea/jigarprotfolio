@@ -8,11 +8,11 @@ export const Contact = () => {
         <div className='flex flex-col p-4 justify-center   w-11/12  mx-auto h-full'>
             <div>
                 <p className='text-4xl font-bold inline-block border-b-4 border-gray-500 p-1'>Contact</p>
-                <p className='py-6 text-gray-400 text-xl font-semibold '>Submit the form below to get in touch with me</p>
+                <p className='py-4 text-gray-400 text-xl font-semibold '>Submit the form below to get in touch with me</p>
             </div>
 
             <div className='flex justify-center items-center mt-20  '>
-                <form className='flex flex-col w-full md:w-1/2'>
+                <form className='flex flex-col w-full ml-2 md:w-1/2'>
                     <input
                         type='text'
                         name='name'

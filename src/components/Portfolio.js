@@ -55,8 +55,8 @@ const Portfolio = () => {
         <div name='projects'
             className='bg-gradient-to-b from-black to-gray-800        text-white mt-20 '>
 
-            <div className='flex flex-col h-full w-11/12   mx-auto  '>
-                <div className='pb-8 ml-4'>
+            <div className='flex flex-col h-full lg:w-11/12 w-[83%]   mx-auto  '>
+                <div className='pb-8 lg:ml-4'>
                     <p className='text-4xl  font-bold inline border-b-4 border-gray-500 '>Portfolio</p>
                     <p className='py-6 text-gray-400 text-xl font-semibold'>Check out some of my work right here</p>
                 </div>
@@ -64,7 +64,7 @@ const Portfolio = () => {
                 {/* .............project.........*/}
 
 
-                <div className='flex flex-col  mb-10  lg:gap-y-36 gap-y-24 w-[100%] '>
+                <div className='flex flex-col  mb-10  lg:gap-y-36 gap-y-24 lg:w-[100%] '>
 
                     {
                         projects.map(({ title, image, link, codelink, description }, index) => (

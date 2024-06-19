@@ -44,7 +44,7 @@ const Navbar = () => {
             <div className='flex z-20 justify-between items-center border-b border-gray-600 w-full h-20  px-10 text-white bg-black fixed'>
 
                 <Link to='home'>
-                    <div className='flex gap-x-3 cursor-pointer'>
+                    <div className='flex gap-x-3 -ml-4 cursor-pointer'>
                         <h1 className='lg:text-6xl text-5xl great-vibes-regular -rotate-6'> Pratik</h1>
                         <h1 className='lg:text-5xl text-4xl great-vibes-regular -rotate-6'> Raj</h1>
                         <h1 className='lg:text-4xl text-3xl great-vibes-regular -rotate-6'> Verma</h1>

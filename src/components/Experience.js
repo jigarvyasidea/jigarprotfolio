@@ -99,7 +99,7 @@ const Experience = () => {
 
         <div className='flex flex-col   justify-center lg:w-11/12 w-full mx-auto  h-full text-white p-4 pt-20  '>
 
-            <div>
+            <div className='ml-5 lg:ml-0'>
                 <p className='text-4xl font-bold border-b-4 rounded-2xl  border-gray-500 p-2 inline text-white'>Experience</p>
                 <p className='py-10 text-gray-400 text-xl font-semibold'>These are the Technology I've worked with</p>
             </div>
