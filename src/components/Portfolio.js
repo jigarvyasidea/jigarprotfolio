@@ -71,7 +71,7 @@ const Portfolio = () => {
                             <div key={index} className={` ${index % 2 ? 'flex-row-reverse' : 'flex-row'} w-[100%]   flex  items-end overflow-hidden gap-4 group `}  >
 
                                 {/* project card */}
-                                <div className='relative flex flex-col gap-y-4 border-gray-500 border rounded-sm bg-gray-800 lg:ml-4  lg:p-4 p-3 pb-5  w-[300px] lg:w-[600px] group ' >
+                                <div className='relative flex flex-col gap-y-4 border-gray-600 border rounded-sm bg-gray-800 lg:ml-4  lg:p-4 p-3 pb-5  w-[300px] lg:w-[600px] group ' >
 
                                     {/* project image */}
                                     <div className='lg:w-[100%]  lg:h-[300px]      '>
@@ -119,7 +119,7 @@ const Portfolio = () => {
                                 </div>
 
                                 {/* project No */}
-                                <p className='lg:text-9xl text-7xl text-gray-400 font-sans opacity-0 group-hover:opacity-50 transition-opacity duration-700'>0{index + 1}</p>
+                                <p className='lg:text-9xl text-5xl text-gray-400 font-sans opacity-0 group-hover:opacity-50 transition-opacity duration-700'>0{index + 1}</p>
 
 
                             </div>
