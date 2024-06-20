@@ -18,9 +18,9 @@ const Portfolio = () => {
         {
             title: 'StudyNotion',
             image: StudyNotion,
-            link: 'https://thehacktech.vercel.app',
-            codelink: '',
-            description: ' This is a full stack course selling app with backend implementation in Nodejs and frontend development in react js while styling designe in Tailwind and Mongodb used as Database '
+            link:  '',
+            codelink: 'https://my-weather-app-pratik.netlify.app',
+            description: ' This is a full stack course selling app with backend implemented in Nodejs and frontend developed in react js while styling design in Tailwind and Mongodb used as Database '
         },
         {
             title: 'Weather',
@@ -86,14 +86,23 @@ const Portfolio = () => {
                                     {/* button */}
                                     <div className='flex gap-5  '>
                                         {/* Demo button */}
-                                        <a href={link} target='_blank'
-                                            rel="noreferrer"
-                                            className=' py-2 bg-gray-600 hover:scale-95 duration-200 text-gray-200  lg:w-24 lg:px-0 px-2 text-center font-bold rounded-md'> Demo </a>
+                                        {
+                                            link ? (
+                                                <>
+                                                    <a href={link} target='_blank'
+                                                        rel="noreferrer"
+                                                        className=' py-2 bg-gray-600 hover:scale-95 duration-200 text-gray-200  lg:w-24 lg:px-0 px-2 text-center font-bold rounded-md'> Demo </a>
 
-                                        {/* Code button */}
-                                        <a href={codelink} target='_blank'
-                                            rel="noreferrer"
-                                            className=' py-2 bg-gray-600 hover:scale-95 duration-200 text-gray-200  lg:w-24 lg:px-0 px-2 text-center font-bold rounded-md'>  Code </a>
+
+                                                    <a href={codelink} target='_blank'
+                                                        rel="noreferrer"
+                                                        className=' py-2 bg-gray-600 hover:scale-95 duration-200 text-gray-200  lg:w-24 lg:px-0 px-2 text-center font-bold rounded-md'>  Code </a>
+                                                </>
+                                            ) : (
+                                                <p className='text-2xl bold text-center text-red-700'>Comming soon......</p>
+                                            )
+                                        }
+
 
                                         {/* description button */}
                                         <div className=''>
@@ -104,7 +113,7 @@ const Portfolio = () => {
 
                                             {
                                                 indexNo === index && (
-                                                    <div className={` ${index % 2 ? ' lg:bottom-4 lg:-left-20  bottom-20 right-10 ' : ' lg:bottom-4 lg:-right-20 bottom-24 right-0  '} absolute   p-4 w-[300px]  rounded-lg  lg:max-h-[400px] bg-gray-600 z-10`}>
+                                                    <div className={` ${index % 2 ? ' lg:bottom-4 lg:-left-20  bottom-20 right-10 ' : ' lg:bottom-4 lg:-right-20 bottom-24 right-0  '} absolute   p-4 lg:w-[300px]  rounded-xl  lg:max-h-[400px] bg-gray-600 z-10`}>
                                                         <p className='    '>{description}</p>
                                                         <div className={` ${index % 2 ? 'lg:-right-3 lg:bottom-4 right-6' : ' lg:-left-3 lg:bottom-5 -bottom-3 right-10'}     absolute  h-7 aspect-square rotate-45 bg-gray-600`}></div>
                                                     </div>

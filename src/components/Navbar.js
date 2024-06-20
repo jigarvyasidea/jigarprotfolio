@@ -90,14 +90,14 @@ const Navbar = () => {
 
             {
                 !navicon && (
-                    <ul className='flex top-20 fixed opacity-95 z-20 flex-col items-center justify-center bg-black h-screen gap-y-14 w-screen'>
+                    <ul className='flex mt-16 fixed opacity-100 z-20 flex-col items-center justify-center bg-black h-screen gap-y-10 w-screen '>
 
                         {
                             links.map((link, index) => (
 
                                 <Link to={`${link.path}`}
                                     key={index}>
-                                    <li className=' cursor-pointer capitalize font-bold text-sky-500 text-5xl    '
+                                    <li className=' cursor-pointer capitalize font-semibold text-gray-600  bg-gradient-to-r from-black to-gray-800 w-56 py-1  text-center rounded-md text-5xl shadow-md shadow-gray-400   '
                                         onClick={() => setNavicon(true)}
                                     >
                                         {link.title}

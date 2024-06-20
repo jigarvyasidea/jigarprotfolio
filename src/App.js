@@ -11,7 +11,7 @@ import { Contact } from './components/Contact'
  
  const App = () => {
    return (
-     <div className='bg-black select-none  '>
+     <div className='bg-black select-none    overflow-hidden  '>
         <Navbar />
         <Home/> 
         <SocialLinks/>
