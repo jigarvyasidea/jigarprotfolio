@@ -18,8 +18,8 @@ const Portfolio = () => {
         {
             title: 'coursepreneur',
             image: coursepreneur,
-            link:  '',
-            codelink: 'https://coursepreneur.vercel.app/',
+            link:  'https://coursepreneur.vercel.app/',
+            codelink: 'https://github.com/pratikrajverma/coursePreneur',
             description: ' This is a full stack course selling app with backend implemented in Nodejs and frontend developed in react js while styling design in Tailwind and Mongodb used as Database '
         },
         {
