@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import hacktech from '../image/projects/hacktech.jpg'
 import Weather from '../image/projects/WeatherApp.png'
-import StudyNotion from '../image/projects/StudyNotion.jpg'
+import coursepreneur from '../image/projects/coursePreneur.jpg'
 
 
 const Portfolio = () => {
@@ -16,10 +16,10 @@ const Portfolio = () => {
             description: '  this is the development of a sophisticated MERN stack web application enabling localized teacher-student interaction through pin code -based searches, comprehensive profiles, and video demos   '
         },
         {
-            title: 'StudyNotion',
-            image: StudyNotion,
+            title: 'coursepreneur',
+            image: coursepreneur,
             link:  '',
-            codelink: 'https://my-weather-app-pratik.netlify.app',
+            codelink: 'https://coursepreneur.vercel.app/',
             description: ' This is a full stack course selling app with backend implemented in Nodejs and frontend developed in react js while styling design in Tailwind and Mongodb used as Database '
         },
         {
