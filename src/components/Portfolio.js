@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import hacktech from '../image/projects/hacktech.jpg'
 import Weather from '../image/projects/WeatherApp.png'
 import coursepreneur from '../image/projects/coursePreneur.jpg'
+import postApp from '../image/projects/postApp.jpg'
 
 
 const Portfolio = () => {
@@ -27,6 +28,13 @@ const Portfolio = () => {
             image: Weather,
             link: 'https://my-weather-app-pratik.netlify.app/',
             codelink: 'https://github.com/pratikrajverma/weather-app',
+            description: '  This is weather app implementation in HTML, CSS, Javascript '
+        },
+        {
+            title: 'PostApp',
+            image: postApp,
+            link: 'https://socialmediaapp-theta.vercel.app/',
+            codelink: 'https://github.com/pratikrajverma/socialMediaPost',
             description: '  This is weather app implementation in HTML, CSS, Javascript '
         },
     ]
