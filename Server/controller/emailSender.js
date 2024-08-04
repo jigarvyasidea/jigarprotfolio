@@ -25,10 +25,10 @@ const emailSender = async (req, res) => {
             to: "erpratikrajverma@gmail.com",
             subject: "New Message Received",
             text: `New message from ${name} (${email}):\n\n${message}`,
-            html: `
-          <p>New message from ${name} (${email}):</p>
-          <p>${message}</p>
-        `,
+        //     html: `
+        //   <p>New message from ${name} (${email}):</p>
+        //   <p>${message}</p>
+        // `,
         });
 
         const mailResponse = await transporter.sendMail({
@@ -45,14 +45,14 @@ Best regards,
 Pratik Raj Verma
 Mob: 7903209052`,
 
-            html: `
-        <p>Dear ${name},</p>
-        <p>Thank you for reaching out through my portfolio website. I appreciate your interest and look forward to connecting with you.</p>
+    //         html: `
+    //     <p>Dear ${name},</p>
+    //     <p>Thank you for reaching out through my portfolio website. I appreciate your interest and look forward to connecting with you.</p>
      
-        <p>Best regards,<br>
-        Pratik Raj Verma<br>
-        Mob: 7903209052</p>
-      `,
+    //     <p>Best regards,<br>
+    //     Pratik Raj Verma<br>
+    //     Mob: 7903209052</p>
+    //   `,
         });
 
         res.status(200).json({
@@ -67,6 +67,6 @@ Mob: 7903209052`,
             error: error.message,
         });
     }
-};
+}; 
 
 module.exports = {emailSender};

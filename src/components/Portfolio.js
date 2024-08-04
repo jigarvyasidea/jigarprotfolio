@@ -35,7 +35,7 @@ const Portfolio = () => {
             image: postApp,
             link: 'https://socialmediaapp-theta.vercel.app/',
             codelink: 'https://github.com/pratikrajverma/socialMediaPost',
-            description: '  This is weather app implementation in HTML, CSS, Javascript '
+            description: ' This is POST creating app where you can make you post including video , image, about, etc. It is tatally build on MERN Stack just go on dem and check it.'
         },
     ]
 
